@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body * {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#main {
+    border: 1px solid red;
+    width: 360px;
+    height: 712px;
+    margin: 56px auto 0px;
+}
+
+#perfil {
+    border: 1px solid blue;
+    height: auto; /*Não é necessario, pode deletar essa linha*/
+    margin: auto;
+    padding: 24px;
+}
+
+#perfil img{
+    width: 112px;
+    display: block;
+    margin: auto;
+}
+
+#arroba {
+    font-weight: 500;
+    /* font-size: 16px; */
+    line-height: 24px;
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* #modo-escuro{
+    border: 1px solid green;
+    width: 360px;
+    height: 40px;
+}
+
+#caixas{
+    border: 1px solid white;
+    width: 360px;
+    height: 320px;
+}
+
+#redes-sociais{
+    border: 1px solid green;
+    width: 360px;
+    height: 88px;
+}
+
+#creditos{
+    border: 1px solid blue;
+    width: 360px;
+    height: 72px;
+} */
+
+
+
+
+/* botões links */
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 25px;
+}
+
+ul li {
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 12px;
+    text-align: center;
+}
